@@ -1,0 +1,67 @@
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(161, 216, 230);
+  margin: 0 5px 0 5px;
+}
+
+.divCard {
+  padding: 0.5em;
+}
+
+.image {
+  display: flex;
+  width: 300px;
+  margin-bottom: 0.3em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 70%;
+  padding: 0.5em;
+}
+
+h3 {
+  color: rgb(49, 138, 211);
+  margin: 0;
+}
+
+.location,
+.year {
+  color: grey;
+  margin: 0;
+}
+
+button {
+  display: flex;
+  margin-top: 1.2em;
+  background-color: rgb(36, 112, 212);
+  opacity: 60%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(24, 54, 151);
+  color: white;
+}
+
+.divFlexboxRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-valid {
+  display: inline;
+  font-size: 10px;
+  color: orange;
+  position: absolute;
+  padding: 10px;
+}
+
+.divBtn {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 35% 0 35%;
+}
